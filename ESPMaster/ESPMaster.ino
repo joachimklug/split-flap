@@ -35,7 +35,7 @@
   on your network. This will try and setup your device with a static IP address of your chosing. See below for more details.
 */
 #define WIFI_STATIC_IP      false
-//#define FAE_MOD                   //Option for the modified PCB that includes an ESP-12F module
+#define FAE_MOD                   //Option for the modified PCB that includes an ESP-12F module
 
 /* .--------------------------------------------------------. */
 /* | ___         _               ___       __ _             | */
