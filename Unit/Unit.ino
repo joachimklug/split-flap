@@ -280,7 +280,7 @@ void requestEvent() {
 
 //returns the adress of the unit as int from 0-15
 int getaddress() {
-  int address = !digitalRead(ADRESSSW4) + (!digitalRead(ADRESSSW3) * 2) + (!digitalRead(ADRESSSW2) * 4) + (!digitalRead(ADRESSSW1) * 8);
+  int address = !digitalRead(ADRESSSW1) + (!digitalRead(ADRESSSW2) * 2) + (!digitalRead(ADRESSSW3) * 4) + (!digitalRead(ADRESSSW4) * 8);
   return address;
 }
 
